@@ -33,28 +33,8 @@ export function Intro(): JSX.Element {
           For those of you who have no idea how AI works, and assume it's just a
           magical box on your phone that gives you any answer you seek in a
           split second, allow me to give you a quick synopsis on its
-          functionality.
+          functionality.{" "}
         </span>
-        AI relies on{" "}
-        <a href="https://www.ibm.com/think/topics/dataset">Data Sets</a> to
-        function. To train AI, one must first teach the AI how it should respond
-        to any given set of input.
-        <b>For example: </b>
-        You want to train an AI to recognize what a bicycle looks like in order
-        to finally pass those pesky CAPTCHA pop-ups. What's your first step?
-        Most likely, retrieve a large dataset of pictures of bicycles in various
-        shapes, sizes, colors, angles, with/without a rider, etc...
-        <br />
-        But what happens if your dataset mostly includes pictures of red
-        bicycles? Chances are, if you ask this AI to describe a bicycle to you,
-        it might include the color <span className="red">"red"</span> in its
-        description.
-      </p>
-      <p>
-        This leads me to the main purpose of this webpage: As AI dependence
-        increases, is AI subjecting its users to biases, due to disproportional
-        datasets, and therefore subconsciously instilling misogynistic
-        tendencies/beliefs into its users?
       </p>
     </>
   );

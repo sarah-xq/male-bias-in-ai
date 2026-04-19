@@ -3,9 +3,6 @@ import { Intro } from "../components/Intro";
 
 export function Home(): JSX.Element {
   return (
-    <>
-      <div>Welcome!</div>
-      <Intro />
-    </>
-  );
+  <div>Welcome!</div>
+<Intro />)
 }

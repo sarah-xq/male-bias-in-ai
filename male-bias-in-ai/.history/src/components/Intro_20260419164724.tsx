@@ -47,14 +47,7 @@ export function Intro(): JSX.Element {
         <br />
         But what happens if your dataset mostly includes pictures of red
         bicycles? Chances are, if you ask this AI to describe a bicycle to you,
-        it might include the color <span className="red">"red"</span> in its
-        description.
-      </p>
-      <p>
-        This leads me to the main purpose of this webpage: As AI dependence
-        increases, is AI subjecting its users to biases, due to disproportional
-        datasets, and therefore subconsciously instilling misogynistic
-        tendencies/beliefs into its users?
+        it might include the color "red" in its description.
       </p>
     </>
   );

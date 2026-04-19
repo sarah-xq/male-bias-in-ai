@@ -50,12 +50,6 @@ export function Intro(): JSX.Element {
         it might include the color <span className="red">"red"</span> in its
         description.
       </p>
-      <p>
-        This leads me to the main purpose of this webpage: As AI dependence
-        increases, is AI subjecting its users to biases, due to disproportional
-        datasets, and therefore subconsciously instilling misogynistic
-        tendencies/beliefs into its users?
-      </p>
     </>
   );
 }

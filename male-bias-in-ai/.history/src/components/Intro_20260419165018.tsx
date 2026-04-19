@@ -51,10 +51,10 @@ export function Intro(): JSX.Element {
         description.
       </p>
       <p>
-        This leads me to the main purpose of this webpage: As AI dependence
-        increases, is AI subjecting its users to biases, due to disproportional
-        datasets, and therefore subconsciously instilling misogynistic
-        tendencies/beliefs into its users?
+        This leads me to the main point of this webpage: As AI dependence
+        increases, is AI subjecting its users to biases due to disproportional
+        datasets, and therefore subconciously leading its users to have
+        misogynistic
       </p>
     </>
   );
