@@ -2,7 +2,7 @@ import type { JSX } from "react";
 
 export function Intro(): JSX.Element {
   return (
-    <>
+    <main>
       <h2>Introduction</h2>
       <p>
         Welcome to the AI Bias Findings webpage. This webpage is meant to serve
@@ -10,6 +10,7 @@ export function Intro(): JSX.Element {
         training data, along with the inclusion of the authors personal
         anecdotes on the topic.
       </p>
+      <main className="content-grid">
       <p>
         As the usage of AI becomes increasingly more common, so does its
         dependence. We have already seen in the past couple years an increase in
@@ -50,12 +51,15 @@ export function Intro(): JSX.Element {
         it might include the color <span className="red">"red"</span> in its
         description, even though a bicycle is not necessarily red.
       </p>
-      <p>
-        This leads me to the main purpose of this webpage: As AI dependence
-        increases, is AI subjecting its users to biases, due to disproportional
-        datasets, and therefore subconsciously instilling misogynistic
-        tendencies/beliefs into its users?
-      </p>
+      </main>
+      <footer className="intro-footer">
+        <p>
+          This leads me to the main purpose of this webpage: As AI dependence
+          increases, is AI subjecting its users to biases, due to
+          disproportional datasets, and therefore subconsciously instilling
+          misogynistic tendencies/beliefs into its users?
+        </p>
+      </footer>
     </>
   );
 }

@@ -1,0 +1,91 @@
+/* Core Layout */
+.page-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  background-color: #fdfdfb; /* Cream background from reference */
+  font-family: "Inter", sans-serif;
+}
+
+/* Header styling */
+.intro-header h2 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(3rem, 8vw, 5rem);
+  color: #0a1a2f;
+  margin: 0;
+  border-bottom: 2px solid #0a1a2f;
+}
+
+.lead-text {
+  font-size: 1.5rem;
+  color: #4a5568;
+  margin-top: 2rem;
+  max-width: 800px;
+  line-height: 1.4;
+}
+
+/* The Grid System - This is what makes it look "Planned" */
+.content-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr; /* Asymmetric columns */
+  gap: 60px;
+  margin-top: 4rem;
+  align-items: start;
+}
+
+/* Pull Quote Styling */
+.pull-quote b {
+  display: block;
+  font-family: "Playfair Display", serif;
+  font-size: 2.2rem;
+  line-height: 1.2;
+  color: #0a1a2f;
+  margin: 2rem 0;
+  position: relative;
+}
+
+/* Sidebar Styling (Technical Note) */
+.technical-note {
+  background: #f1f3f5;
+  padding: 30px;
+  border-top: 4px solid #d4af37; /* Gold accent */
+}
+
+.technical-note span {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  color: #718096;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* The Bicycle Example */
+.example-box {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px dashed #cbd5e0;
+  font-size: 0.95rem;
+}
+
+.red {
+  color: #e53e3e;
+  font-weight: bold;
+}
+
+/* Footer / Closing question */
+.intro-footer {
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 1px solid #e2e8f0;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.25rem;
+}
+
+/* Responsive fix for mobile */
+@media (max-width: 850px) {
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+}
