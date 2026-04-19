@@ -11,7 +11,7 @@ function App() {
     <Routes>
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Home />} />
-        <Route path="/personal-findings" element={<PersonalFindings />} />
+        <Route path="/findings" element={<PersonalFindings />} />
         <Route path="/research" element={<Papers />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
         <Route path="*" element={<p>Invalid URL</p>} />

@@ -1,0 +1,21 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-layout {
+  display: flex;
+  flex: 1;
+  background-color: #8faf9d;
+}
+
+.content {
+  flex: 1;
+  padding: 10px;
+  background-color: #493c33;
+}
+
+div {
+  font-family: "Times New Roman", Times, serif;
+}
