@@ -30,7 +30,6 @@ export function Intro(): JSX.Element {
         <br />
         AI is fundamentally prone to bias due to the way it is even structured
         in the first place. <br />
-        <br />
         <span className="quote">
           For those of you who have no idea how AI works, and assume it's just a
           magical box on your phone that gives you any answer you seek in a
@@ -38,13 +37,10 @@ export function Intro(): JSX.Element {
           functionality.{" "}
         </span>
         <br />
-        <br />
         AI relies on{" "}
         <a href="https://www.ibm.com/think/topics/dataset">Data Sets</a> to
         function. To train AI, one must first teach the AI how it should respond
-        to any given set of input. <br />
-        <br />
-        <b>For example: </b>
+        to any given set of input. <b>For example: </b>
         You want to train an AI to recognize what a bicycle looks like in order
         to finally pass those pesky CAPTCHA pop-ups. What's your first step?
         Most likely, retrieve a large dataset of pictures of bicycles in various

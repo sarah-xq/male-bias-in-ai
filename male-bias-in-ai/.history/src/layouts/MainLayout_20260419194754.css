@@ -1,15 +1,8 @@
-.newsreader-font {
-  font-family: "Newsreader", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
 /* Base Styles */
 :root {
   --ink: #1a1a1a; /* Soft black for text */
   --paper: #fcfcfc; /* Off-white background */
-  --accent: #221931; /* Academic red for emphasis */
+  --accent: #d32f2f; /* Academic red for emphasis */
   --muted: #666666; /* Subtle gray */
   --border: #eeeeee; /* Light dividers */
   --max-width: 720px; /* The "Golden Width" for reading */
@@ -38,7 +31,6 @@ header {
   border-bottom: 1px solid var(--border);
   margin-bottom: 50px;
   padding-bottom: 20px;
-  background-color: rgb(201, 195, 210);
 }
 
 nav a {
@@ -59,36 +51,19 @@ nav a:hover {
 /* Typography */
 h1 {
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 800;
   line-height: 1.1;
   margin-bottom: 0.5em;
   letter-spacing: -0.02em;
-  font-family: "Newsreader", serif;
 }
 
 h2 {
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 800;
   line-height: 1.1;
   margin-bottom: 0.5em;
   letter-spacing: -0.02em;
   color: black;
-  font-family: "Newsreader", serif;
-}
-
-h4 {
-  font-weight: 200;
-  line-height: 1.1;
-  margin-bottom: 0.5em;
-  letter-spacing: -0.02em;
-  padding: 20px;
-
-  line-height: 1.4rem;
-}
-
-h4 a {
-  font-size: 1.3rem;
-  line-height: 2.5rem;
 }
 
 .subtitle {
@@ -101,10 +76,6 @@ h4 a {
 p {
   font-size: 1.2rem;
   margin: 20px;
-  /* border: #1a1a1a 1px solid; */
-  padding: 20px;
-  text-align: left;
-  background-color: rgb(244, 240, 252);
 }
 
 /* The "Impact" Quote Styling */
@@ -123,28 +94,4 @@ a.cta {
   color: var(--accent);
   text-decoration: underline;
   text-underline-offset: 4px;
-}
-
-a {
-  color: #221931;
-}
-
-.navbar {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--accent);
-}
-
-.quote {
-  font-style: italic;
-  color: var(--muted);
-  margin: 20px;
-}
-
-.research-links {
-  background-color: rgb(201, 195, 210);
-}
-
-.smaller {
-  font-size: 0.9rem;
 }

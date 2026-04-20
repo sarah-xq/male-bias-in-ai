@@ -42,9 +42,7 @@ export function Intro(): JSX.Element {
         AI relies on{" "}
         <a href="https://www.ibm.com/think/topics/dataset">Data Sets</a> to
         function. To train AI, one must first teach the AI how it should respond
-        to any given set of input. <br />
-        <br />
-        <b>For example: </b>
+        to any given set of input. <b>For example: </b>
         You want to train an AI to recognize what a bicycle looks like in order
         to finally pass those pesky CAPTCHA pop-ups. What's your first step?
         Most likely, retrieve a large dataset of pictures of bicycles in various
