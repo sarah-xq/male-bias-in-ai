@@ -5,7 +5,6 @@ import { Home } from "./pages/Home";
 import { PersonalFindings } from "./pages/PersonalFindings";
 import { Papers } from "./pages/Papers";
 import { Disclaimer } from "./pages/Disclaimer";
-import { Reflection } from "./pages/Reflection";
 
 function App() {
   return (

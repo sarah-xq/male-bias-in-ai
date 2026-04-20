@@ -60,9 +60,9 @@ export function PersonalResearch(): JSX.Element {
         represented in media, studies, and research.
       </p>
       <p className="smaller">
-        As AI continues to scale and be applied in areas like security and job
-        application/filtering, I imagine the gaps of female representation will
-        become ever more present. I hypothesize that AI models may begin to
+        As AI continues to scale and be applied in areas like security, job
+        application/filtering and , I imagine the gaps of female representation
+        will become ever more present. I hypothesize that AI models may begin to
         favour men as more suitable for any given position, unfairly filtering
         out women as potential hires even when they possess the same
         qualifications. Unfortunately, this mimics real bias that still occurs
