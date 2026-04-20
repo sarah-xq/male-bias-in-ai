@@ -1,0 +1,82 @@
+/* 1. Global Page Styles */
+body {
+  background-color: #f9f9f7; /* The soft cream from your screenshot */
+  color: #1a1a1a;
+  font-family:
+    "Inter",
+    -apple-system,
+    sans-serif; /* Clean sans for body */
+  line-height: 1.6;
+  margin: 0;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* 2. Heading Styles */
+h2 {
+  font-family: "Playfair Display", serif; /* Or any high-contrast serif */
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #0a1a2f; /* Deep navy from the reference */
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+/* 3. Paragraph Spacing & Styling */
+p {
+  margin-bottom: 1.8rem;
+  font-size: 1.15rem;
+  color: #334155;
+}
+
+/* 4. Targeting the Bold "Pull Quote" */
+/* This targets the <b> tag specifically when it's the start of a paragraph */
+p > b:first-child {
+  display: block;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  color: #0a1a2f;
+  border-left: 4px solid #d4af37; /* The gold accent color */
+  padding-left: 20px;
+  margin: 2rem 0;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+/* 5. The "Synopsis" Span */
+/* Targets the specific span providing the AI functionality explanation */
+p > span {
+  display: block;
+  font-style: italic;
+  color: #64748b;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* 6. Link Styling */
+a {
+  color: #0a1a2f;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 2px solid #d4af37;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  background-color: #d4af37;
+  color: white;
+}
+
+/* 7. Handling the Bicycle Example formatting */
+/* Using the <br /> as a spacer for the "For example" section */
+br {
+  content: "";
+  display: block;
+  margin: 15px 0;
+}
+
+.red {
+  color: #dc2626;
+  font-weight: 600;
+}

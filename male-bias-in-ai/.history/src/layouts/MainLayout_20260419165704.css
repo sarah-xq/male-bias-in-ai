@@ -1,0 +1,44 @@
+/* Color Palette from Image */
+:root {
+  --navy-dark: #0a1a2f; /* Main headings */
+  --gold-accent: #d4af37; /* Accents/Quotes */
+  --bg-cream: #fdfdfb; /* Background */
+  --text-body: #334155; /* Slate body text */
+}
+
+.intro-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  font-family: "Inter", system-ui, sans-serif;
+  color: var(--text-body);
+}
+
+h2 {
+  font-family: "Playfair Display", serif; /* Or any high-contrast serif */
+  font-size: 3rem;
+  color: var(--navy-dark);
+  margin-bottom: 1.5rem;
+}
+
+blockquote {
+  border-left: 3px solid var(--gold-accent);
+  padding-left: 1.5rem;
+  margin: 2.5rem 0;
+  font-size: 1.25rem;
+  font-style: italic;
+  color: var(--navy-dark);
+}
+
+.example-box {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.red {
+  color: #dc2626;
+  font-weight: 600;
+}
