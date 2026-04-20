@@ -4,7 +4,7 @@ export function ResearchFindings(): JSX.Element {
   return (
     <>
       <h2>Research Findings :</h2>
-      <p className="smaller">
+      <p>
         Whilst accessing existing research found itself challenging due to the
         restrictive nature of many research papers, here are a few resources I
         consulted to help me better understand the issues of gender bias in AI :
