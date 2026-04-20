@@ -8,5 +8,5 @@ export default defineConfig({
     port: 3000,
     strictPort: true,
   },
-  base: "/male-bias-in-ai",
+  base: "/male-bias-in-ai/",
 });
