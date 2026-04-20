@@ -1,0 +1,12 @@
+* {
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+p {
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid navy;
+  border-radius: 1px;
+}

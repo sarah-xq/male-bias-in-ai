@@ -1,0 +1,14 @@
+* {
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+}
+
+p {
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid rgb(127, 112, 137);
+  border-radius: 1px;
+  color: navy;
+}
